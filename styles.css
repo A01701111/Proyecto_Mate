@@ -1,4 +1,21 @@
-*{
+* {
     margin: 0;
     border: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+body{
+    font-family: 'Merriweather', serif;
+}
+#topNav {
+    overflow: hidden;
+    background-color: #333;
+    font-size: 2.5em;
+}
+
+#topNav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 80ppx;
+    text-decoration: none;
 }
