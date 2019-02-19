@@ -4,7 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 body {
     font-family: 'Merriweather', serif;
     background-color: #e8e8e8;
@@ -64,4 +64,24 @@ h1 {
 }
 p{
     font-size:2em;
+}
+footer{
+    height: auto;
+    width: 100%;
+    background-color: #333;
+    color: white;
+   
+}
+footer h1 {
+    font-family: 'Roboto Mono', monospace;
+    opacity: 0.5;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+footer h2{
+    text-align: left;
+    padding-left:20px; 
+    opacity: 0.8;
 }
