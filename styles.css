@@ -85,3 +85,6 @@ footer h2{
     padding-left:20px; 
     opacity: 0.8;
 }
+#ref p {
+    text-align: left;
+}
